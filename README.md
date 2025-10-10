@@ -191,9 +191,9 @@ Un grand merci à toutes les personnes qui vont contribuer à ce projet !
  | Avatar | Nom                | GitHub                          | Rôle                     |
  |--------|--------------------|---------------------------------|--------------------------|
  | ![Bécognée Yonnel](https://github.com/Yobeco.png?size=50) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco) | Mainteneur |
- | ... | ... | ... | Développeur |
- | ... | ... | ... | Développeuse |
- | ... | ... | ... | Traductrice |
+ | ... | ... | ... | Développeur (euse) |
+ | ... | ... | ... | Bricoleur (euse) |
+ | ... | ... | ... | Traducteur (trice) |
 
 ---
 
