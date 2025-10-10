@@ -97,6 +97,8 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 ⟶ Démantelé pour créer la version 2
 
+---
+
 ### "MAEL Scan Pi" V2
 
 | Fonction | Solution actuelle |
@@ -127,6 +129,8 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 - Quelques défauts parfois dans la voix Piper TTS :neutral_face: (Créer notre propre modèle de voix ? C'est possible)
 
 ⟶ Fonctionnel mais le code est encore brouillon
+
+---
 
 ### "MAEL Scan Pi" V3
 
