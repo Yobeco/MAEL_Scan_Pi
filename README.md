@@ -144,8 +144,7 @@ En cours de construction
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |
 | Lecture audio | aplay (linux Bash) |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero |
-| Amplificateur audio | RPi Speaker HAT PWM Sound Card GPIO Audio Amplification
- |
+| Amplificateur audio | RPi Speaker HAT PWM Sound Card GPIO Audio Amplification|
 | Scanner les codes QR | GM861S-LED |
 | Éclairage des codes QR | intégré au module GM861S |
 | Écran | Waveshare 3.52inch e-Paper Display (B), e-Ink Red/Black/White |
