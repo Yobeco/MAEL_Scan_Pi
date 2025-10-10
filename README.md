@@ -162,7 +162,7 @@ En cours de construction
 - Devra être connecté pour la voix de synthèse
 - Des boutons à connecter à la carte mère au lieu d'un écran tactile. Plus compliqué ! :face_with_head_bandage:
 
-⟶ J'ai une partie du hardware
+⟶ J'ai une partie du hardware :hammer_and_wrench:
 
 ---
 
