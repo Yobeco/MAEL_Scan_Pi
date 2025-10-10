@@ -168,7 +168,7 @@ En cours de construction
 
 ## E- Fonctionnalités à développer :rocket:
 
-Les mêmes que pour **MAEL Scan**
+Les mêmes que pour **MAEL Scan**, mais en Python <img src="https://cdn.simpleicons.org/python/FFFF" width="24" height="24" style="vertical-align: middle;" /> sur Raspberry.
 
 ### :+1: Proposez votre aide pour developper _MAEL Scan Pi_
 
