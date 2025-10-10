@@ -1,6 +1,6 @@
 ![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-MAEL-120.png "Logo du projet MAEL")
 
-# MAEL Scan
+# MAEL Scan Pi
 
 *Une application appartenant au [__projet MAEL__](https://github.com/Yobeco/MAEL_Project)*   
 Copyright (c) 2022 Yonnel Bécognée
