@@ -30,15 +30,15 @@ Copyright (c) 2024 Yonnel Bécognée
 
 ## A- Description :eye:
 
-**MAEL Scan Pi** est une application embarquée sur Raspberry  Pi <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />) qui permet à l'élève de flasher les code QR créés par son professeur avec **MAEL Gen** et d'écouter leur contenu :speaker:.   
+**MAEL Scan Pi** est une application embarquée sur Raspberry  Pi <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" /> qui permet à l'élève de flasher les code QR créés par son professeur avec **MAEL Gen** et d'écouter leur contenu :speaker: sans utiliser de téléphone portable.   
 Son interface est conçue pour être utilisée par un enfant, dés 4 ans :baby:.
 
 L'objectif de la version sans téléphone est de :
 
 - ne pas mettre un téléphone dans les mains (surtout pour lesplus jeunes élèves). :no_mobile_phones:
-- créer une bel objet incarnant le début d'un apprentissage important (Contrat pédagogique)
+- créer une bel objet incarnant le début d'un apprentissage important (Contrat pédagogique).
 
-**MAEL Scan** permet aux élèves ne possédant aucun "parlant" chez lui d'écouter la langue étudiée dans un contexte pédagogique élaboré par son professeur :100:. Elle permet donc au professeur de **booster son enseignement d'une langue** :chart_with_upwards_trend:.
+**MAEL Scan Pi** permet aux élèves ne possédant aucun "parlant" chez lui d'écouter la langue étudiée dans un contexte pédagogique élaboré par son professeur :100:. Il permet donc au professeur de **booster son enseignement d'une langue** :chart_with_upwards_trend:.
 
 **Potentiellement 55 langues sont implémentables !** :astonished:
 
@@ -71,7 +71,7 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 ### "MAEL Scan Pi" V1
 
-| Fonction | Solution trouvée |
+| Fonction | Solution choisie |
 |--------|--------------------|
 | Carte mère | Raspberry Pi 4 8Go <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Système dexploitation | [Pi OS Debian V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
@@ -90,9 +90,9 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 **Défauts :**
 
-- Encombrant
+- Encombrant :package:
 - Boitier peu ergonomique
-- Difficile de scanner les codes QR (Il faut prendre une photo, l'envoyer à OpenCV qui peine à lire le code QR...)
+- Difficile de scanner les codes QR (Il faut prendre une photo, l'envoyer à OpenCV qui peine à lire le code QR...) :face_with_diagonal_mouth:
 - Parasites très génants dans le haut-parleur (LM386 sensible, sans pré-ampli)
 
 ⟶ Démantelé pour créer la version 2
