@@ -180,7 +180,7 @@ Les mêmes que pour **MAEL Scan**, mais en Python <img src="https://cdn.simpleic
 
 ## F- Participez au projet MAEL :open_hands:
 
-:sos: Pour **obtenir de l'aide** concernant l'utilisation de MAEL ou pour **paticiper au développement** :computer:, écrivez-moi ici :
+Pour **obtenir des informations** concernant le fonctionnement de **MAEL Scan Pi** :+1: écrivez-moi ici :
 
 ### :mailbox_with_mail: ***[mael@lvh.edu.ni](mailto:mael@lvh.edu.ni)***
 
