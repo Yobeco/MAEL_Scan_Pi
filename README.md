@@ -99,7 +99,8 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 ---
 
-### "MAEL Scan Pi" V2
+### "MAEL Scan Pi" V2
+
 
 | Fonction | Solution actuelle |
 |--------|--------------------|
