@@ -21,15 +21,21 @@ Copyright (c) 2022 Yonnel Bécognée
 
 ![](./readme_assets/Cartes.jpg)
 
+![](./readme_assets/Ouvert.jpg)
+
+![](./readme_assets/Ferme.jpg)
+
+![](./readme_assets/Dessous.jpg)
+
 
 ## A- Description :eye:
 
 **MAEL Scan Pi** est une application embarquée sur Raspberry  Pi <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />) qui permet à l'élève de flasher les code QR créés par son professeur avec **MAEL Gen** et d'écouter leur contenu :speaker:.   
-Son interface est conçue pour être utilisée par un enfant, dés 4 ans :baby:.   
+Son interface est conçue pour être utilisée par un enfant, dés 4 ans :baby:.
 
 L'objectif de la version sans téléphone est de :
 
-- ne pas mettre un téléphone dans les mains (surtout pour lesplus jeunes élèves).
+- ne pas mettre un téléphone dans les mains (surtout pour lesplus jeunes élèves). :no_mobile_phones:
 - créer une bel objet incarnant le début d'un apprentissage important (Contrat pédagogique)
 
 **MAEL Scan** permet aux élèves ne possédant aucun "parlant" chez lui d'écouter la langue étudiée dans un contexte pédagogique élaboré par son professeur :100:. Elle permet donc au professeur de **booster son enseignement d'une langue** :chart_with_upwards_trend:.
@@ -48,6 +54,7 @@ Voir le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan)
 
 ## C- Comment utiliser MAEL Scan ? :blush:
 
+L'utilisation devra s'approcher au mieux de la version téléphone.
 Voir le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan)
 
 ---
@@ -60,26 +67,26 @@ Voir le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan)
 
 Le principe de fonctionnement sera le même que le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan) sur téléphone.
 
-Cependant, MAEl Scan Pi possède des propriétés hardware :
+Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 ### "MAEL Scan Pi" V1
 
 | Fonction | Solution trouvée |
 |--------|--------------------|
-| Carte mère | Raspberry Pi 4 8Go |
-| Système dexploitation | [Pi OS Debian V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) |
+| Carte mère | Raspberry Pi 4 8Go <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
+| Système dexploitation | [Pi OS Debian V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Synthèse vocale | [Piper TTS](https://github.com/OHF-Voice/piper1-gpl) |
 | Lecture audio | aplay (linux Bash) |
 | UPS (gestion des batteries) | MakerFocus Raspberry Pi 4 Battery Pack UPS |
 | Amplificateur audio | LM386  |
-| Scanner les codes QR | module caméra V2.1 |
-| Reconnaissance des codes QR | OpenCV |
+| Scanner les codes QR | module caméra V2.1 <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
+| Reconnaissance des codes QR | OpenCV <img src="https://cdn.simpleicons.org/opencv/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Écran | WaveShare 2.7inch E-Ink Display HAT |
 | Boitier | Boitier recyclé d'un vieux modem |
 
 **Qualités :**
 
-- Prototype pour découvrir les difficultés
+- Prototype pour découvrir les difficultés :face_with_peeking_eye:
 
 **Défauts :**
 
@@ -94,8 +101,8 @@ Cependant, MAEl Scan Pi possède des propriétés hardware :
 
 | Fonction | Solution actuelle |
 |--------|--------------------|
-| Carte mère | Raspberry Pi 4 8Go |
-| Système dexploitation | [Pi OS Debian 13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) |
+| Carte mère | Raspberry Pi 4 8Go <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
+| Système dexploitation | [Pi OS Debian 13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Synthèse vocale | [Piper TTS](https://github.com/OHF-Voice/piper1-gpl) |
 | Lecture audio | aplay (linux Bash) |
 | UPS (gestion des batteries) | MakerFocus Raspberry Pi 4 Battery Pack UPS |
@@ -107,17 +114,17 @@ Cependant, MAEl Scan Pi possède des propriétés hardware :
 
 **Qualités :**
 
-- Fonctionnel : codes QR facilement scannés
+- Fonctionnel : codes QR facilement scannés :slightly_smiling_face:
 - Synthèse vocale embarquée (pas besoin de connexion internet)
-- Bonne autonomie
-- Son de meilleure qualité
+- Bonne autonomie :battery:
+- Son de meilleure qualité :musical_note: :+1:
 
 **Défauts :**
 
 - Encombrant
 - Boitier peu ergonomique
-- Code QR de 254 octets max soit 40 caractères ASCII (moins si accents, caractères étrangers...). C'est une limite harware du Tiny sensor. **Insuffisant** !
-- Quelques défauts parfois dans la voix Piper TTS (Créer notre propre modèle de voix ? C'est possible)
+- Code QR de 254 octets max soit 40 caractères ASCII (moins si accents, caractères étrangers...). C'est une limite harware :straight_ruler: du Tiny sensor. **Insuffisant** ! 
+- Quelques défauts parfois dans la voix Piper TTS :neutral_face: (Créer notre propre modèle de voix ? C'est possible)
 
 ⟶ Fonctionnel mais le code est encore brouillon
 
@@ -127,8 +134,8 @@ En cours de construction
 
 | Fonction | Solution prévue |
 |:--------:|--------------------|
-| Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) |
-| Système dexploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) |
+| Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
+| Système dexploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |
 | Lecture audio | aplay (linux Bash) |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero |
@@ -141,10 +148,10 @@ En cours de construction
 
 **Qualités :**
 
-- Plus petit et léger
-- Boitier imprimé en 3D
+- Plus petit et léger :snowflake:
+- Boitier imprimé en 3D <img src="https://cdn.simpleicons.org/blender/FFFF" width="24" height="24" style="vertical-align: middle;" />
 - Écran couleur
-- Sortie audio Jack !
+- Sortie audio Jack ! :headphones:
 
 **Défauts :**
 
