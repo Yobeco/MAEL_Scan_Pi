@@ -173,6 +173,8 @@ Les mêmes que pour **MAEL Scan**, mais en Python <img src="https://cdn.simpleic
 
 ### :+1: Proposez votre aide pour developper _MAEL Scan Pi_
 
+**Peut-être qu'un FabLab :nut_and_bolt: pourrait participer ? :grin:**
+
 
 ---
 
