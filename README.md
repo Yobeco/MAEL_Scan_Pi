@@ -138,7 +138,7 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 En cours de construction
 
 | Fonction | Solution prévue |
-|:--------:|--------------------|
+|--------|--------------------|
 | Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Système dexploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |
@@ -160,7 +160,7 @@ En cours de construction
 **Défauts :**
 
 - Devra être connecté pour la voix de synthèse
-- Des boutons à connecter à la carte mère au lieu d'un écran tactile. Plus compliqué !
+- Des boutons à connecter à la carte mère au lieu d'un écran tactile. Plus compliqué ! :face_with_head_bandage:
 
 ⟶ J'ai une partie du hardware
 
