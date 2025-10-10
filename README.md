@@ -3,7 +3,7 @@
 # MAEL Scan Pi
 
 *Une application appartenant au [__projet MAEL__](https://github.com/Yobeco/MAEL_Project)*   
-Copyright (c) 2022 Yonnel Bécognée
+Copyright (c) 2024 Yonnel Bécognée
 
 [![License: Libre Non Commerciale](https://img.shields.io/badge/license-GNU%20GENERAL%20PUBLIC%20LICENSE%20V3-white.svg)](./LICENSE)
 
