@@ -102,18 +102,19 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 ### "MAEL Scan Pi" V2
 
 
-| Fonction | Solution actuelle |
-|--------|--------------------|
-| Carte mère | Raspberry Pi 4 8Go <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
-| Système dexploitation | [Pi OS Debian 13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
-| Synthèse vocale | [Piper TTS](https://github.com/OHF-Voice/piper1-gpl) |
-| Lecture audio | aplay (linux Bash) |
-| UPS (gestion des batteries) | MakerFocus Raspberry Pi 4 Battery Pack UPS |
-| Amplificateur audio | XS9871 Mini Module de classe AB  |
-| Scanner les codes QR | Useful Sensors Tiny Code Reader |
-| Éclairage des codes QR | 2 LED |
-| Écran | WaveShare 2.7inch E-Ink Display HAT |
-| Boitier | Boitier recyclé d'un vieux modem |
+| Fonction | Solution actuelle | Prix |
+|--------|--------------------|:--------:|
+| Carte mère | Raspberry Pi 4 8Go <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />| 104$ |
+| Système d’exploitation | [Pi OS Debian 13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />| |
+| Synthèse vocale | [Piper TTS](https://github.com/OHF-Voice/piper1-gpl) |  |
+| Lecture audio | aplay (linux Bash) |  |
+| UPS (gestion des batteries) | MakerFocus Raspberry Pi 4 Battery Pack UPS | 33$ |
+| Amplificateur audio | PAM8403 Mini Module | 1$ |
+| Scanner les codes QR | Useful Sensors Tiny Code Reader | 11$ |
+| Éclairage des codes QR | 2 LED |  |
+| Écran avec 4 boutons | WaveShare 2.7inch E-Ink Display HAT | 23$ |
+| Boîtier | Boîtier recyclé d'un vieux modem |  |
+|  | Total : | +- 172$ |
 
 **Qualités :**
 
@@ -137,30 +138,36 @@ Cependant, MAEl Scan Pi possède des propriétés hardware particulières :
 
 En cours de construction
 
-| Fonction | Solution prévue |
-|--------|--------------------|
-| Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />|
-| Système dexploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|
-| Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |
-| Lecture audio | aplay (linux Bash) |
-| UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero |
-| Amplificateur audio | RPi Speaker HAT PWM Sound Card GPIO Audio Amplification|
-| Scanner les codes QR | GM861S-LED |
-| Éclairage des codes QR | intégré au module GM861S |
-| Écran | Waveshare 3.52inch e-Paper Display (B), e-Ink Red/Black/White |
+| Fonction | Solution prévue | Prix |
+|--------|--------------------|:--------------------:|
+| Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />| 22$ |
+| Système d’exploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|  |
+| Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |  |
+| Lecture audio | aplay (linux Bash) |  |
+| UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero | 24$ |
+| Amplificateur audio | Raspberry Pi Audio Module (B) | 4$ |
+| Scanner les codes QR | GM861S-LED | 3$ |
+| Éclairage des codes QR | Intégré au module GM861S |  |
+| Écran | 2.13inch E-Paper HAT (B), 250x122, Red/Black/White, SPI Interface | 15$ |
+| 6 Boutons "Touch" | MPR121 V12 - Capacitive Touch Sensor | 2$ |
+|  | Total : | +- 70$ |
 
+Comme il n'existe pas (encore) d'écran *3.52inch e-Paper Display (B), e-Ink Display, 360x240, Red/Black/White* qui soit tactile pour afficher les boutons sur l'écran, j'ai opté pour des capteurs type "touch sensor" qui seront à l'intérieur du boîtier.   
+Et j'ai donc choisi un écran plus petit (et moins cher) mais en 3 couleurs :black_circle::white_circle::red_circle:. Parfait pour le logo de MAEL :smile:  
+J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Cet écran de 5cm x 2.5cm afficherait ce texte en taille 11px, ce qui est encore acceptable. (Il faudra faire des essais avec une taille de caractère qui est calculé en fonction du nombre de caractères à afficher...)
 
 **Qualités :**
 
 - Plus petit et léger :snowflake:
-- Boitier imprimé en 3D <img src="https://cdn.simpleicons.org/blender/FFFF" width="24" height="24" style="vertical-align: middle;" />
-- Écran couleur
+- Un boîtier imprimé en 3D <img src="https://cdn.simpleicons.org/blender/FFFF" width="24" height="24" style="vertical-align: middle;" /> prévu
+- Écran couleur !
+- 6 boutons tactiles
 - Sortie audio Jack ! :headphones:
 
 **Défauts :**
 
-- Devra être connecté pour la voix de synthèse
-- Des boutons à connecter à la carte mère au lieu d'un écran tactile. Plus compliqué ! :face_with_head_bandage:
+- Devra être connecté pour la voix de synthèse.
+- Une interface I2C en plus à connecter pour les boutons au lieu d'un écran tactile. Plus compliqué ! :face_with_head_bandage:
 
 ⟶ J'ai une partie du hardware :hammer_and_wrench:   
 Mais il est parfois cher :money_with_wings: et long :calendar: de faire parvenir du matériel au Nicaragua :nicaragua: (où je vis).
@@ -169,7 +176,7 @@ Mais il est parfois cher :money_with_wings: et long :calendar: de faire parvenir
 
 ## E- Fonctionnalités à développer :rocket:
 
-Les mêmes que pour **MAEL Scan**, mais en Python <img src="https://cdn.simpleicons.org/python/FFFF" width="24" height="24" style="vertical-align: middle;" /> sur Raspberry.
+Les mêmes que pour **MAEL Scan**, mais à développer en Python <img src="https://cdn.simpleicons.org/python/FFFF" width="24" height="24" style="vertical-align: middle;" /> sur Raspberry.
 
 ### :+1: Proposez votre aide pour developper _MAEL Scan Pi_
 
@@ -200,6 +207,5 @@ Un grand merci à toutes les personnes qui vont contribuer à ce projet !
 ## G- Installation :arrow_heading_down:
 
 Mon code source du prototype V2 est encore trop désordonné pour que j'ose le mettre sur le dépôt. :disappointed:   
-Il faut que je trouve le temps de l'améliorer.
-
+En fait, je vais passer directement à la version 3...
 
