@@ -145,7 +145,7 @@ En cours de construction
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |  |
 | Lecture audio | aplay (linux Bash) |  |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero | 24$ |
-| Amplificateur audio | Raspberry Pi Audio Module (B) | 4$ |
+| Amplificateur audio | Audio Tech (B) Speaker Tech pour Raspberry Pi zero | 4$ |
 | Scanner les codes QR | GM861S-LED | 3$ |
 | Éclairage des codes QR | Intégré au module GM861S |  |
 | Écran | 2.13inch E-Paper HAT (B), 250x122, Red/Black/White, SPI Interface | 15$ |
