@@ -160,7 +160,7 @@ J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Ce
 
 - Plus petit et léger :snowflake:
 - Un boîtier imprimé en 3D <img src="https://cdn.simpleicons.org/blender/FFFF" width="24" height="24" style="vertical-align: middle;" /> prévu
-- Écran couleur !
+- Écran 3 couleurs !
 - 6 boutons tactiles
 - Sortie audio Jack ! :headphones:
 
