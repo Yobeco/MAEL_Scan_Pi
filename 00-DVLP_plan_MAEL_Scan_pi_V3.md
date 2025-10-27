@@ -203,9 +203,9 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 mael@MAELpi3:~ $ aplay test.wav
 ```
 > [!WARNING]
-> **Son médiocre... :face_with_head_bandage: Il faut trouver une meilleure solution. Et pas chère si possible...**
-> [Micro+](https://raspiaudio.com/product/mic/) --> Bien mais cher :confused:
-> [ReSpeaker 2-Mic Pi HAT V1.0](https://docs.keyestudio.com/projects/KS0314/en/latest/docs/KS0314.html) --> Pas cher, mais alim externe + ajout de HP... :face_with_head_bandage:
+> **Son médiocre... :face_with_head_bandage: Il faut trouver une meilleure solution. Et pas chère si possible...**  
+> [Micro+](https://raspiaudio.com/product/mic/) --> Bien mais cher :confused:  
+> [ReSpeaker 2-Mic Pi HAT V1.0](https://docs.keyestudio.com/projects/KS0314/en/latest/docs/KS0314.html) --> Pas cher, mais alim externe + ajout de HP... :face_with_head_bandage:   
 
 ## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
 
