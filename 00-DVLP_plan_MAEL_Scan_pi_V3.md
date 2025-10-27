@@ -148,7 +148,7 @@ dtoverlay=audremap,pins_18_19
 sudo raspi-config > 1 System Options > S2 Audio > 0 bcm2835 Headphones
 ```
 
-#### e- Redémarre encore
+#### e- Redémarrer encore
 ```bash
 sudo reboot
 ```
@@ -162,11 +162,21 @@ sudo reboot
 timeout 1s speaker-test -t sine -f 440  
 ```
 
-#### b- Déposer un fichier son sur le RPi
+#### b- Déposer un fichier son sur le RPi avec SSH
 
+```bash
+scp test.mp3 mael@192.168.1.21:/home/mael
+```
 
+Pour déposer un dossier entier :
+
+```bash
+scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
+```
 
 #### b- Jouer le son
+
+**Avec "_aplay_" (Seulement des wav)**
 
 
 
