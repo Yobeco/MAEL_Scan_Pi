@@ -209,8 +209,6 @@ mael@MAELpi3:~ $ aplay test.wav
 
 ## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
 
-[Évaluation par Mistral](https://chat.mistral.ai/chat/cf412c22-5cb5-41be-a95a-3474314c53d8)
-
 [Documentation officielle (Man page)](MOC/Commandes_MOC.md)
 
 ### 1- Lecture d'un fichier sans l'interface
