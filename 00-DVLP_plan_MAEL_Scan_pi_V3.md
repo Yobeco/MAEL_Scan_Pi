@@ -43,9 +43,13 @@ sudo nmcli dev wifi connect "ton_ssid" password "ton_mot_de_passe"
 sudo apt update
 sudo apt upgrade
 ```
-#### 	d- [Informations du système](Commandes_Infos_Sys.md)
+#### 	d- [Voir les informations du système](Commandes_Infos_Sys.md)
 
-Installer et lancer `neofech`
+```bash
+cat /etc/os-release
+```
+
+Plus joli, installer et lancer `neofech`
 
 ```bash
 sudo apt install git
@@ -178,13 +182,10 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 
 **Avec "_aplay_" (Seulement des wav)**
 
-
-
-## III- Utilisation du Hat déporté
-
-1. Connecter les GPIO avec des câbles souples (Connecteur SHIM ?)
-
-## IV- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
+```bash
+aplay test.wav
+```
+## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
 
 [Évaluation par Mistral](https://chat.mistral.ai/chat/cf412c22-5cb5-41be-a95a-3474314c53d8)
 
@@ -194,6 +195,10 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 2. Avancer 1s / Reculer 1s
 3. Volume + / Volume - ()
 4. SOX pour la lecteure lente ?
+
+## IV- Utilisation du Hat déporté
+
+1. Connecter les GPIO avec des câbles souples (Connecteur SHIM ?)
 
 ## V- Connexion à gTTS
 
@@ -228,7 +233,7 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 
 ## XIII- Révision du flux complet
 
+## IX- Créer une image de la SD quand une version est satisfaisante !
 
-
-
-
+Mettre la carte SD sur un lecteur puis utiliser "Disques" (Utilitaire par défaut d'Ubuntu)
+ou dd ?
