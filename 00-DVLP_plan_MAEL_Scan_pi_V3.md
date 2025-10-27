@@ -211,18 +211,26 @@ mael@MAELpi3:~ $ aplay test.wav
 ### 1- Lecture d'un fichier sans l'interface
 
 ```bash
+# Lancer le serveur (sans interface)
+mocp -S
+# Jouer le fichier une fois
 mocp -c && mocp -a test2.wav && mocp -p
 ```
 
 | Argument                                | Fonction                                                     |
 | --------------------------------------- | ------------------------------------------------------------ |
+| [-S](https://www.mankier.com/1/mocp#-S) | Lancer uniquement le serveur.                                |
 | [-c](https://www.mankier.com/1/mocp#-c) | Effacer la playlist.                                         |
-| [-a](https://www.mankier.com/1/mocp#-a) | Ajoute les fichiers, répertoires (de manière récursive) et listes de lecture indiqués.  **Ne lance pas l'interface**. |
-| [-p](https://www.mankier.com/1/mocp#-p) | Commencez la lecture à partir du premier élément de la liste de lecture. |
+| [-a](https://www.mankier.com/1/mocp#-a) | Ajouter les fichiers, répertoires et listes de lecture indiqués. **Ne lance pas l'interface**. |
+| [-p](https://www.mankier.com/1/mocp#-p) | Commencer la lecture à partir du premier élément de la liste de lecture. |
 
 ### 2- Contrôle de la lecture
 
-
+| Argument                                         | Fonction                                                     |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| [-G](https://www.mankier.com/1/mocp#-G) (Toggle) | Basculer entre lecture et pause.                             |
+| [-k](https://www.mankier.com/1/mocp#-k) [+/-]*N* | Avancer (+) ou reculez (-) de *N* secondes dans le fichier en cours de lecture. |
+| [-v](https://www.mankier.com/1/mocp#-v) [+/-]*N* | Régler le volume du mixeur. (**[-v](https://www.mankier.com/1/mocp#-v) +10**, **[-v](https://www.mankier.com/1/mocp#-v) -10**). |
 
 Ces commandes seront lancées par des commandes python contrôlées par des boutons capacitifs
 

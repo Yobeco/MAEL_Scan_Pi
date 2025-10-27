@@ -145,13 +145,14 @@ En cours de construction
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |  |
 | Lecture audio | MOC (Music On Consol) + SOX |  |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero | 24$ |
-| ~~Amplificateur audio~~ | ~~Audio Tech (B) Speaker Tech pour Raspberry Pi zero~~ Son de mauvaise qualité | 4$ |
-| Amplificateur audio | DAC + Ampli + HP + Sortie Jack |  |
-| Scanner les codes QR | GM861S-LED | 3$ |
+| ~~Amplificateur audio~~ | ~~Audio Tech (B) Speaker Tech pour Raspberry Pi zero~~ Son de mauvaise qualité | ~~4$~~ |
+| Amplificateur audio | [mic+](https://raspiaudio.com/product/mic/) (DAC + Ampli / HP + Sortie Jack) | 35$ |
+| Scanner les codes QR | GM861S-LED | 10$ |
 | Éclairage des codes QR | Intégré au module GM861S |  |
 | Écran | 2.13inch E-Paper HAT (B), 250x122, Red/Black/White, SPI Interface | 15$ |
 | 6 Boutons "Touch" | MPR121 V12 - Capacitive Touch Sensor | 2$ |
-|  | Total : | +- 70$ |
+| Boîtier impression 3D | PET de bouteilles | ? |
+|  | Total : | +- 104$ |
 
 Comme il n'existe pas (encore) d'écran *3.52inch e-Paper Display (B), e-Ink Display, 360x240, Red/Black/White* qui soit tactile pour afficher les boutons sur l'écran, j'ai opté pour des capteurs type "touch sensor" qui seront à l'intérieur du boîtier.   
 Et j'ai donc choisi un écran plus petit (et moins cher) mais en 3 couleurs :black_circle::white_circle::red_circle:. Parfait pour le logo de MAEL :smile:  
