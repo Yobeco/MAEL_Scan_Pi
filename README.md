@@ -145,7 +145,7 @@ En cours de construction
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |  |
 | Lecture audio | MOC (Music On Consol) + SOX |  |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero | 24$ |
-| ~~Amplificateur audio~~ | ~~Audio Tech (B) Speaker Tech pour Raspberry Pi zero~~ Son de mauvaise qualité | ~~4$~~ |
+| ~~Amplificateur audio~~ | ~~Audio Tech (B) Speaker Tech pour Raspberry Pi zero~~ Son de médiocre qualité :neutral_face: | ~~4$~~ |
 | Amplificateur audio | [mic+](https://raspiaudio.com/product/mic/) (DAC + Ampli / HP + Sortie Jack) | 35$ |
 | Scanner les codes QR | GM861S-LED | 10$ |
 | Éclairage des codes QR | Intégré au module GM861S |  |
