@@ -126,7 +126,7 @@ Seulement pour des services très gourmands en logs (ex : serveur web, base de d
 
 --> Donc pas très utile pour MAEL Scan Pi...
 
-## II- Installation du Hat de Hauts parleurs (+ Jack)
+## II- Installation du HAT de Hauts parleurs (+ Jack)
 
 ### 1- [Configuration du Hat](https://spotpear.com/wiki/Raspberry-Pi-GPIO-Audio-amplification-PWM-Sound-Card-Speaker-Buzzer.html)
 
@@ -202,6 +202,10 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 ```bash
 mael@MAELpi3:~ $ aplay test.wav
 ```
+> [!WARNING]
+>
+> **Son médiocre... Il faut trouver une meilleure solution. Et pas chère si possible...**
+
 ## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
 
 [Évaluation par Mistral](https://chat.mistral.ai/chat/cf412c22-5cb5-41be-a95a-3474314c53d8)
