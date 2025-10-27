@@ -203,7 +203,6 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 mael@MAELpi3:~ $ aplay test.wav
 ```
 > [!WARNING]
->
 > **Son médiocre... Il faut trouver une meilleure solution. Et pas chère si possible...**
 
 ## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
