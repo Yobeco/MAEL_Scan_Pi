@@ -168,11 +168,28 @@ timeout 1s speaker-test -t sine -f 440
 
 #### b- Déposer un fichier son sur le RPi avec SSH
 
+1- Savoir son chemin courant :
+
+```bash
+# (print working directory) affiche le chemin du répertoire courant.
+pwd
+```
+
+2- Savoir un chemin absolu :
+
+```bash
+realpath mon_fichier.txt
+```
+
+3- Scénario d'utilisation de **scp** : `scp` `source` `destination`
+
+4- Lancer une copie :
+
 ```bash
 scp test.mp3 mael@192.168.1.21:/home/mael
 ```
 
-Pour déposer un dossier entier :
+5- Déposer un dossier entier :
 
 ```bash
 scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
