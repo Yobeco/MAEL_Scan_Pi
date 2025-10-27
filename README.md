@@ -172,6 +172,14 @@ J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Ce
 ⟶ J'ai une partie du hardware :hammer_and_wrench:   
 Mais il est parfois cher :money_with_wings: et long :calendar: de faire parvenir du matériel au Nicaragua :nicaragua: (où je vis).
 
+:eye: [**Voir l'avancement de la configuration de MAEL Scan Pi V3**](https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/00-DVLP_plan_MAEL_Scan_pi_V3.md)  
+
+1. Configuration de l'OS
+2. Utilitaires CLI
+3. Installation des modules...
+
+--> Pas encore le développement Python
+
 ---
 
 ## E- Fonctionnalités à développer :rocket:
