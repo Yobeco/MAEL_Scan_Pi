@@ -143,9 +143,10 @@ En cours de construction
 | Carte mère | Raspberry Pi zero 2W 512 Mo (+ Zram) <img src="https://cdn.simpleicons.org/raspberrypi/FFFF" width="24" height="24" style="vertical-align: middle;" />| 22$ |
 | Système d’exploitation | [Pi OS Debian Lite V13 (trixie)](https://www.raspberrypi.com/software/operating-systems/) <img src="https://cdn.simpleicons.org/debian/FFFF" width="24" height="24" style="vertical-align: middle;" />|  |
 | Synthèse vocale | GTTS (ou Service de synthèse vocale hébergée sur MAEL Phrase) |  |
-| Lecture audio | aplay (linux Bash) |  |
+| Lecture audio | MOC (Music On Consol) + SOX |  |
 | UPS (gestion des batteries) | Uninterruptible Power Supply UPS HAT For Raspberry Pi Zero | 24$ |
-| Amplificateur audio | Audio Tech (B) Speaker Tech pour Raspberry Pi zero | 4$ |
+| ~~Amplificateur audio~~ | ~~Audio Tech (B) Speaker Tech pour Raspberry Pi zero~~ Son de mauvaise qualité | 4$ |
+| Amplificateur audio | DAC + Ampli + HP + Sortie Jack |  |
 | Scanner les codes QR | GM861S-LED | 3$ |
 | Éclairage des codes QR | Intégré au module GM861S |  |
 | Écran | 2.13inch E-Paper HAT (B), 250x122, Red/Black/White, SPI Interface | 15$ |

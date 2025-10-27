@@ -186,7 +186,7 @@ realpath mon_fichier.txt
 4- Lancer une copie :
 
 ```bash
-scp test.mp3 mael@192.168.1.21:/home/mael
+yonnel@YoDesktop:/chemin/complet$ scp test2b.wav mael@192.168.1.21:/home/maelscp test.mp3 mael@192.168.1.21:/home/mael
 ```
 
 5- Déposer un dossier entier :
@@ -200,7 +200,7 @@ scp -r /home/yonnel/dossier mael@192.168.1.21:/home/mael
 **Avec "_aplay_" (Seulement des wav)**
 
 ```bash
-aplay test.wav
+mael@MAELpi3:~ $ aplay test.wav
 ```
 ## III- [Fonctions de lecture audio MOC](http://moc.daper.net/node/87)
 
@@ -208,10 +208,25 @@ aplay test.wav
 
 [Documentation officielle (Man page)](MOC/Commandes_MOC.md)
 
-1. Play / Pause / (Stop)
-2. Avancer 1s / Reculer 1s
-3. Volume + / Volume - ()
-4. SOX pour la lecteure lente ?
+### 1- Lecture d'un fichier sans l'interface
+
+```bash
+mocp -c && mocp -a test2.wav && mocp -p
+```
+
+| Argument                                | Fonction                                                     |
+| --------------------------------------- | ------------------------------------------------------------ |
+| [-c](https://www.mankier.com/1/mocp#-c) | Effacer la playlist.                                         |
+| [-a](https://www.mankier.com/1/mocp#-a) | Ajoute les fichiers, répertoires (de manière récursive) et listes de lecture indiqués.  **Ne lance pas l'interface**. |
+| [-p](https://www.mankier.com/1/mocp#-p) | Commencez la lecture à partir du premier élément de la liste de lecture. |
+
+### 2- Contrôle de la lecture
+
+
+
+Ces commandes seront lancées par des commandes python contrôlées par des boutons capacitifs
+
+### 3- SOX pour la lecture lente ?
 
 ## IV- Utilisation du Hat déporté
 
