@@ -232,9 +232,11 @@ mocp -c && mocp -a test2.wav && mocp -p
 | [-k](https://www.mankier.com/1/mocp#-k) [+/-]*N* | Avancer (+) ou reculez (-) de *N* secondes dans le fichier en cours de lecture. |
 | [-v](https://www.mankier.com/1/mocp#-v) [+/-]*N* | Régler le volume du mixeur. (**[-v](https://www.mankier.com/1/mocp#-v) +10**, **[-v](https://www.mankier.com/1/mocp#-v) -10**). |
 
-Ces commandes seront lancées par des commandes python contrôlées par des boutons capacitifs
+Ces commandes seront lancées depuis python lui-même contrôlé par des boutons capacitifs
 
 ### 3- SOX pour la lecture lente ?
+
+
 
 ## IV- Utilisation du Hat déporté
 
