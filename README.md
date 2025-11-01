@@ -158,6 +158,8 @@ Comme il n'existe pas (encore) d'écran *3.52inch e-Paper Display (B), e-Ink Dis
 Et j'ai donc choisi un écran plus petit (et moins cher) mais en 3 couleurs :black_circle::white_circle::red_circle:. Parfait pour le logo de MAEL :smile:  
 J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Cet écran de 5cm x 2.5cm afficherait ce texte en taille 11px, ce qui est encore acceptable. (Il faudra faire des essais avec une taille de caractère qui est calculé en fonction du nombre de caractères à afficher...)
 
+![Model3D_1](readme_assets/Model3D_1.png)
+
 **Qualités :**
 
 - Plus petit et léger :snowflake:

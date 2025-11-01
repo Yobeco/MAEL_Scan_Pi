@@ -30,7 +30,7 @@ Avec un clavier et un écran, lancer `raspi-config > 1 System Options > S6 Auto 
 #### 	b- **Configuration du Wifi**
 
 1. Configurer le wifi depuis `raspi-config`.
-2. Si encore ne fonctionne pas : configurer **NetworkManager** à la main : 
+2. Si encore ne fonctionne pas automatiquement : configurer **NetworkManager** à la main : 
 
 ```bash
 sudo nmcli connection delete "preconfigured"
