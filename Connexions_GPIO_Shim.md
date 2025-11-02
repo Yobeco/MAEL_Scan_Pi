@@ -1,14 +1,14 @@
 # Connexions pour les GPIO
 
 ## A- Connecteur fin type SHIM
-Comme le nombre de connexions au Raspberry Pi est assez élevé ([voir tableau](##c--tableau-des-connexions)), j'ai besoin de créer un connecteur très fin qui s'imbriquera entre le Raspberry Pi et l'écran (mais aussi sur le Hat Mic+V3).  
-Le différents modules seont soudés sur ce connecteur fin, pas directement sur les GPIO.
+Comme le nombre de connexions au Raspberry Pi est assez élevé ([voir tableau](##c--tableau-des-connexions)), j'ai besoin de créer un connecteur très fin qui s'imbriquera entre le Raspberry Pi et l'écran (mais aussi sur le Hat Mic+V3 :musical_note:).  
+Les différents modules seront soudés sur ce connecteur fin, pas directement sur les GPIO.
 
 Ce connecteur "*PiFace Shim I/O prototype extension for Raspberry Pi*" a existé mais est "**Discontinued**" et introuvable. Il serait pourtant assez facile de le créer sous <img src="https://cdn.simpleicons.org/kicad/FFFF" width="40" height="40" style="vertical-align: middle;" /> par exemple et de le faire réaliser par  "PCB Way" ou "JLCPCB".
 
 ![](./readme_assets/Connexions_GPIO_Shim.png)
 
-Les trous réservés aux broches GPIO du RPi sont **décalés d' 1/4 de millimètres** une fois sur deux. Ce qui tord légèrement les broches et assure un bon contact électrique !!!
+:bulb: ​Les trous réservés aux broches GPIO du RPi sont **décalés d' 1/4 de millimètres** une fois sur deux. Ce qui tord légèrement les broches et assure un bon contact électrique !!!
 
 ## B- Avantages
 
@@ -18,7 +18,7 @@ Ce connecteur type SHIM permettra :
 - d'éviter de souder directement le module Mic+V3 et les autres modules
 - plus de flexibilité et moins de risques pour un assemblage et une réparation plus facile.
 
-Ce tout petit PCB devrait être très **bon marcher** à faire produire en quelques dizaines pour commencer. Il fera **gagner beaucoup de temps** à l'assemblage et la réparation du MAEL ScanPi. Il fera **gagner de la place** et **évitera les risques** de mauvaises connexions.
+Ce tout petit PCB devrait être très **bon marcher** à faire produire en quelques dizaines d'unités pour commencer. Il fera **gagner beaucoup de temps** à l'assemblage et la réparation du MAEL ScanPi. Il fera **gagner de la place** et **évitera les risques** de mauvaises connexions.
 
 ## C- Tableau des connexions
 
