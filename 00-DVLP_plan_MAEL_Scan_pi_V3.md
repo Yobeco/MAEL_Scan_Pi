@@ -25,11 +25,11 @@ Configuration :
 
 #### 	a- Configurer une ouverture automatique de la session par défaut. 
 
-Avec un clavier et un écran, lancer `raspi-config > 1 System Options > S6 Auto Login`
+Avec un clavier et un écran, lancer `sudo raspi-config > 1 System Options > S6 Auto Login`
 
 #### 	b- **Configuration du Wifi**
 
-1. Configurer le wifi depuis `raspi-config`.
+1. Configurer le wifi depuis `sudo raspi-config > 1 System Options > S1 Wirless LAN`.
 2. Si encore ne fonctionne pas automatiquement : configurer **NetworkManager** à la main : 
 
 ```bash

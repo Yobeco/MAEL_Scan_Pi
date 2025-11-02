@@ -160,6 +160,8 @@ J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Ce
 
 ![Model3D_1](readme_assets/Model3D_1.png)
 
+![Model3D_1](readme_assets/Model3D_2.png)
+
 **Qualités :**
 
 - Plus petit et léger :snowflake:
