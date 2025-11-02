@@ -8,7 +8,7 @@ Ce connecteur "*PiFace Shim I/O prototype extension for Raspberry Pi*" a existé
 
 ![](./readme_assets/Connexions_GPIO_Shim.png)
 
-:bulb: ​Les trous réservés aux broches GPIO du RPi sont **décalés d' 1/4 de millimètres** une fois sur deux. Ce qui tord légèrement les broches et assure un bon contact électrique !!!
+:bulb: Les trous réservés aux broches GPIO du RPi sont **décalés d' 1/4 de millimètre** une fois sur deux. Ce qui tord légèrement les broches et assure un bon contact électrique !!! :zap:
 
 ## B- Avantages
 
