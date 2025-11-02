@@ -184,7 +184,9 @@ Mais il est parfois cher :money_with_wings: et long :calendar: de faire parvenir
 2. Utilitaires CLI
 3. Installation des modules...
 
---> Pas encore le développement Python
+### Besoin d'un spécialiste en création de PCB :ring_buoy:
+
+Les connexions internes ont besoin d'un petit [connecteur (PCB)](Connexions_GPIO_Shim.md) qu'il faudrait fabriquer sur mesure.
 
 ---
 
