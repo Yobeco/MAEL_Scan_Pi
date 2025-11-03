@@ -167,13 +167,13 @@ J'ai fait un test : un gros code QR (150px) peut contenir +- 120 caractères. Ce
 - Plus petit et léger :snowflake:
 - Un boîtier imprimé en 3D <img src="https://cdn.simpleicons.org/blender/FFFF" width="24" height="24" style="vertical-align: middle;" /> prévu
 - Écran 3 couleurs !
-- 6 boutons tactiles
+- 6 boutons tactiles (capacitifs, dans le boîtier directement)
 - Sortie audio Jack ! :headphones:
+- Ajout d'une fonctionnalité : possibilité de scanner un code QR généré par un téléphone:iphone:pour partager une connexion internet Wifi.
 
 **Défauts :**
 
 - Devra être connecté pour la voix de synthèse.
-- Une interface I2C en plus à connecter pour les boutons au lieu d'un écran tactile. Plus compliqué ! :face_with_head_bandage:
 
 ⟶ J'ai une partie du hardware :hammer_and_wrench:   
 Mais il est parfois cher :money_with_wings: et long :calendar: de faire parvenir du matériel au Nicaragua :nicaragua: (où je vis).
