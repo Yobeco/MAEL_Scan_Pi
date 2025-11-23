@@ -223,5 +223,5 @@ Un grand merci à toutes les personnes qui vont contribuer à ce projet !
 ## G- Installation :arrow_heading_down:
 
 Mon code source du prototype V2 est encore trop désordonné pour que j'ose le mettre sur le dépôt. :disappointed:   
-En fait, je vais passer directement à la version 3...
+En fait, je passe directement à la version 3...
 
