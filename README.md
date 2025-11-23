@@ -211,12 +211,12 @@ Pour **obtenir des informations** concernant le fonctionnement de **MAEL Scan Pi
 
 Un grand merci à toutes les personnes qui vont contribuer à ce projet !
 
- | Avatar | Nom                | GitHub                          | Rôle                     |
- |--------|--------------------|---------------------------------|--------------------------|
- | ![Bécognée Yonnel](https://github.com/Yobeco.png?size=50) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco) | Mainteneur |
- | ... | ... | ... | Développeur (euse) |
- | ... | ... | ... | Bricoleur (euse) |
- | ... | ... | ... | Traducteur (trice) |
+| Avatar | Nom                | GitHub                          | Rôle                     |
+|--------|--------------------|---------------------------------|--------------------------|
+| [<img src="https://github.com/YoBeco.png" width="50" style="border-radius: 50%;">](https://github.com/YoBeco) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco)   | Mainteneur                     |
+| [<img src="https://github.com/Nail-yk.png" width="50" style="border-radius: 50%;">](https://github.com/Nail-yk) | Padawan | [@Nail-yk](https://github.com/Nail-yk) | Traduction de la documentation |
+| ... | ... | ... | Développeur (euse) |
+| ... | ... | ... | Bricoleur (euse) |
 
 ---
 
