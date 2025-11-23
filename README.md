@@ -203,7 +203,7 @@ Les mêmes que pour **MAEL Scan**, mais à développer en Python <img src="https
 
 ## F- Participez au projet MAEL :open_hands:
 
-Pour **obtenir des informations** concernant le fonctionnement de **MAEL Scan Pi** :+1: écrivez-moi ici :
+:ring_buoy: Pour **obtenir des informations** concernant le fonctionnement de **MAEL Scan Pi** :+1: écrivez-moi ici :
 
 ### :mailbox_with_mail: ***[mael@lvh.edu.ni](mailto:mael@lvh.edu.ni)***
 
