@@ -16,11 +16,8 @@ Copyright (c) 2024 Yonnel Bécognée
 
 [![Status: Active](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: [Français](https://github.com/Yobeco/MAEL_Scan_pi) | :gb: English
+## :fr: [https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/README.fr.md) | :gb: English
 
----
-
----
 
 ![](./readme_assets/Cartes.jpg)
 
@@ -48,13 +45,9 @@ L'objectif de la version sans téléphone est de :
 
 ---
 
----
-
 ## B- Fonctionnalités :clipboard:
 
 Voir le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan)
-
----
 
 ---
 
@@ -65,13 +58,9 @@ Voir le projet [**MAEL Scan**](https://github.com/Yobeco/MAEL_Scan)
 
 ---
 
----
-
 ## D- Principe de fonctionnement :gear:
 
 *(Pour aider à la compréhension du code)*
-
----
 
 ---
 
