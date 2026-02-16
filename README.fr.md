@@ -16,8 +16,9 @@ Copyright (c) 2024 Yonnel Bécognée
 
 [![Status: Active](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: Français | :gb: [Anglais](https://github.com/Yobeco/MAEL_Scan_pi)
+## :fr: Français | :es: [Español](https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/README.es.md) | :gb: [English](https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/README.md)
 
+---
 
 ![](./readme_assets/Cartes.jpg)
 

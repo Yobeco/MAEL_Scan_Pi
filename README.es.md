@@ -16,7 +16,7 @@ Copyright (c) 2024 Yonnel Bécognée
 
 [![Estado: Activo](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.fr.md) | :es: [Español](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.es.md)  | :gb: [English](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.md)
+## :fr: [Français](https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/README.fr.md) | :es: Español | :gb: [English](https://github.com/Yobeco/MAEL_Scan_Pi/blob/main/README.md)
 
 ---
 
