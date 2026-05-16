@@ -8,7 +8,7 @@ import re
 def wifi_parser(raw_str: str):
     # 1. Valider et nettoyer le préfixe (redondant)
     if not re.match(r"^WIFI:", raw_str, re.IGNORECASE):
-        raise ValueError("Format WIFI: manquant")
+        raise ValueError("Erreur de syntax QR Wifi")
 
     # Isoler le corps après 'WIFI:' --->  ⚠️ Et le ; de la fin ?
     content = re.sub(r"^WIFI:", "", raw_str, flags=re.IGNORECASE)
@@ -39,12 +39,12 @@ def wifi_parser(raw_str: str):
         # Mettre toutes les clés en majuscule
         data[key.upper()] = clean_value     # Pour correspondre à return
 
-    # Conversion en liste qui est le format attendu
-    return [data.get("T", "nopass"),
+    # Conversion en tuple qui est le format attendu
+    return (data.get("T", "nopass"),
             data.get("S", ""),
             data.get("P"),
             data.get("H", "").lower() == "true"
-            ]
+            )
 
 # --- Méthode pour analyser tous les contenus de QR possibles
 def qr_parser(texte):
@@ -62,7 +62,7 @@ def qr_parser(texte):
             drive_name = m.group(1)     # Contient 'gd', 'md' ou '??' (Selon le type de Cloud)
             file_id = m.group(2)        # Contient le reste du texte
 
-            return [drive_name, file_id]   # Pas besoin de renvoyer la valeur
+            return (drive_name, file_id)   # Pas besoin de renvoyer la valeur
             # --> Lancer la méthode directement avec ces paramètres
 
         # 3. Cas des fichiers .mp3 locaux
@@ -70,7 +70,7 @@ def qr_parser(texte):
             folder_url = m.group(1)  #
             file_name = m.group(2)  #
 
-            return [f"assets/{folder_url}", f"_{folder_url}_{file_name}.mp3"]
+            return (f"assets/{folder_url}", f"_{folder_url}_{file_name}.mp3")
 
 
 
@@ -84,7 +84,7 @@ def qr_parser(texte):
             suffixe = m.group(3) or "l"     # Mettre un "l" de lecture si champ vide
                                             # (Plus explicite qu'un strig vide)
 
-            return [langue, contenu, suffixe]
+            return (langue, contenu, suffixe)
 
         case _:
             print(f"Format non reconnu pour : {texte}")

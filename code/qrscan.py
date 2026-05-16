@@ -21,7 +21,7 @@ class QRscan_fake:
                        "Ça ce sont des œufs. Œufs frais là ?",
                        "Aïe, ce sont est trop aigü !",
                        "& ça coûte combien d'€ ?",
-                       "J'eppelle un mot : a, m, o, u, r."
+                       "J'épelle un mot : a, m, o, u, r."
                        ]
 
         x = random.randint(0,len(liste_mots)-1)
