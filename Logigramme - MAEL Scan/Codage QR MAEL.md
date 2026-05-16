@@ -21,10 +21,13 @@ WIFI:							# Mot-clé pour déclarer que c'est un QR Wifi
 
 ## 2- Codes QR d’accès à un .mp3 sur cloud
 
+Voir ID 
+
 | Type de Drive                                                | Préfixe | Payload       | Suffixe |
 | ------------------------------------------------------------ | ------- | ------------- | ------- |
 | Google Drive                                                 | `/gd/`    | ID du fichier | aucun   |
-| :pick: MAEL Drive                                            | `/md/`    | ?             | aucun   |
+| :pick: NextCloud                                 | `/nc/`   | ?             | aucun   |
+|  |  |  |  |
 | :pick: https://lasuite.numerique.gouv.fr/ Drive nommé : "Fichier" | `/ls/` ?  | ?             | aucun   |
 
 **Exemple : **
@@ -45,6 +48,10 @@ Arrêter avec les `*` et les `-` tout passer avec le `_` ?
 
 ## 4- Codes QR des textes à vocaliser
 
+Syntaxe MAEL pour voix de synthèse dans code QR : *MAEL syntax for synthetic speech in QRcodes*
+
+Format (que j'invente) : **M3SQ** :trophy:
+
 Voix utilisées au LVH :
 
 | Langue    | Préfixe        | Payload | Suffixes possibles |
@@ -56,7 +63,7 @@ Voix utilisées au LVH :
 | Italien   | `<it>`         | lettres | #c / #d / #e       |
 | Chinois   | `<zh>`         | lettres | #c / #d / #e       |
 
-### 1) Fonction "Lire" :arrow_forward: aucun suffixe
+### 1) Fonction "Lire" :arrow_forward: aucun suffixe (Ajouter "l" dans l'algorithme)
 
 Lit `payload` dans la langue indiquée par le préfixe et l'affiche sur l'écran.
 

@@ -56,10 +56,12 @@ def wifi_parser(raw_str: str):
 def qr_parser(texte):
 
     # 1er élément du tuple permettant d'orienter le match/case vers l'analyse adéquate
-    # Orienter vers l'analyseur d'ID opaques (Drives en ligne)
-    id_IDopaque = "id_op"       # Pour reconstruire l'URL complète
-    # Orienter vers l'analyseur de fichiers inclus dans l'app
-    id_assets = "assets"        # Orienter vers l'
+    # Orienter vers le reconstructeur de liens externes
+    id_IDopaque = "id_op"
+    # Reconstructeur de liens internes immuables
+    id_assets = "assets"        # Pour reconstruire l'URL locale
+    # Orienter vers la configuration de la voix de synthèse
+    id_m3sq = "m3sq"  # Orienter vers l'
 
     match texte:
 
@@ -90,14 +92,14 @@ def qr_parser(texte):
         # 3. --> Cas des QR avec contenu à vocaliser
         # Groupe 1 : langue (optionnel) --> 2 ou 3 lettres min / maj
         # Groupe 2 : contenu (obligatoire, mais peut être vide)
-        # Groupe 3 : suffixe après l'étoile (optionnel)
+        # Groupe 3 : suffixe après # (optionnel)
         case str(s) if (m := re.match(r"^(?:<([A-Za-z]{2,3})>)?(.*?)(?:\#([a-z]))?$", s)):
             langue = m.group(1) or "fr"     # Mettre "fr" si champ vide
             contenu = m.group(2).strip()
             suffixe = m.group(3) or "l"     # Mettre un "l" de lecture si champ vide
                                             # (Plus explicite qu'un strig vide)
 
-            return (langue, contenu, suffixe)
+            return id_m3sq, langue, contenu, suffixe
 
         case _:
             print(f"Format non reconnu pour : {texte}")
